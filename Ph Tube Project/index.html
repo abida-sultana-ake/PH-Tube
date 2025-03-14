@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- daisy ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Tailwind CND -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>PH-TUBE</title>
+</head>
+<body>
+    <header>
+        <nav class="w-11/12 mx-auto flex justify-between border-b-2 border-[#17171720] py-4 ">
+            <div class="logo">
+                <img class="w-[135px] lg:w-[165px]" src="./assets/Logo.png" alt="Ph tube logo">
+            </div>
+            <div class="sort">
+                <button class="btn bg-gray-300 p-3 ">Sort By View</button>
+            </div>
+            <div class="blogs">
+                <button class="btn bg-[#FF1F3D] p-3 text-white">Blogs</button>
+            </div>
+        </nav>
+    </header>
+    <!-- step-1 -->
+     <nav id="category-container" class="w-11/12 mx-auto flex justify-center m-6  gap-5">
+        <div class="All">
+            <button class="btn btn-sm bg-[#FF1F3D] p-3 text-white">All</button>
+        </div>
+     </nav>
+
+     <!-- step-2 -->
+     <section id="video-container" class="w-11/12 mx-auto grid grid-cols-4 gap-5">
+     </section>
+    
+
+     <script src="./script/index.js"></script>
+</body>
+</html>
